@@ -1,0 +1,34 @@
+{
+  "name": "akashcars",
+  "version": "1.0.0",
+  "main": "index.js",
+  "engines": {
+    "node": "16.13.0",
+    "npm": "8.1.0"
+  },
+  "scripts": {
+    "server": "nodemon server.js",
+    "dev": "npm run server",
+    "start": "node server.js",
+    "heroku-postbuild": "npm install && npm run build"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.0.0",
+    "express": "^4.17.1",
+    "mongoose": "^6.0.11",
+    "nodemon": "^2.0.14",
+    "stripe": "^8.184.0",
+    "uuid": "^8.3.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/akashgajulapalli/mernBackend.git"
+  },
+  "bugs": {
+    "url": "https://github.com/akashgajulapalli/mernBackend/issues"
+  },
+  "homepage": "https://github.com/akashgajulapalli/mernBackend#readme",
+  "description": ""
+}
